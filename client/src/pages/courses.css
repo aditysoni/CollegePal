@@ -1,0 +1,167 @@
+
+body
+{  background-color: #c280f9;
+/*  background-size: auto;
+    background-image: url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"); */
+    /* background: rgb(208,189,245);
+background: linear-gradient(90deg, rgba(208,189,245,1) 0%, rgba(176,196,216,1) 50%, rgba(206,198,252,1) 100%, rgba(181,173,236,1) 156%); */
+}
+
+.searchBar
+{
+    margin-top: 20px;
+    /* width: 30% ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-para
+{
+    margin-top: 30px;
+    font-size: 40px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40
+}
+.input-detail
+{
+    margin-top: 20px;
+    width: 300px ;
+    height : 30px ;
+    font-size: 20px;
+}
+.input-comment 
+{
+  margin-top: 20px;
+  width:800px;
+}
+
+.main-detail
+{
+   display: flex;
+   flex-direction: column ;
+   justify-content: center;
+   
+}
+.profdetail-main
+{  
+   
+   display: flex;
+   flex-direction: row;
+  ;
+   
+}
+.profdetail-right
+{
+  flex:4 ;
+  background:transparent ;
+  padding: 30px;
+  margin: 30px;
+  
+}
+.profdetail-left
+{ 
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  flex:2;
+  display: flex;
+  background:transparent;
+}
+.imagevala 
+{
+   height:auto ;
+   width:auto;
+}
+.writeFormGroup {
+    margin-top: 20px;
+    /* margin-left: 150px; */
+    display: flex;
+    align-items: center;
+    background:transparent;
+  }
+
+  .writeInput 
+{
+    background: transparent;
+    border: 0;
+    width: auto;
+    height: auto;
+
+}
+
+.writeInput:focus 
+{
+    outline: none;
+  }
+
+  .profdetailbutton 
+  {
+    background-color: aquamarine;
+    margin-top : 20px  ; 
+    border-radius: 18px ;
+    font-size: 22px;
+    padding: 10px;
+  }
+ .para 
+ {
+    text-align: center;
+ }
+
+ .project-button
+ {
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+ }
+ .searchBar 
+ {
+    
+    justify-content: center;
+    align-items: center;
+ }
+ .description{
+    display: flex; ;
+    justify-content: first baseline;
+    align-items: flex-start;
+ }
+ .des-box
+ {
+    
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+      
+ 
+ }
+
+ .buttons-projects-toggle
+{
+  display: flex ;
+  flex-direction: row;
+  
+}
+.cards-info-top
+{
+   display: grid; 
+   grid-template-columns: repeat(4 , 1fr);
+   gap:20px ;
+}
+.comment-top
+{
+  display: flex; 
+  flex-direction: column;
+}
